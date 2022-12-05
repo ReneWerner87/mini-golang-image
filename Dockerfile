@@ -10,7 +10,6 @@ ENV UID=10001
 WORKDIR /app
 
 ENV UPX_VERSION=4.0.1
-ENV MAGICPAK_VERSION=1.3.2
 
 # install upx for binary compression - https://upx.github.io/
 ADD https://github.com/upx/upx/releases/download/v${UPX_VERSION}/upx-${UPX_VERSION}-amd64_linux.tar.xz /tmp/upx.tar.xz
